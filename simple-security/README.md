@@ -15,7 +15,7 @@ open http://localhost:8180
 
 You should see this:
 
- ![login](./src/main/resources/static/login.png) 
+ ![login](login.png) 
 
 login
 -----
@@ -26,4 +26,4 @@ To login for the app use below credential:
     
  it will looks like this:
  
- ![home page](./src/main/resources/static/first-app.png) 
+ ![home page](first-app.png) 

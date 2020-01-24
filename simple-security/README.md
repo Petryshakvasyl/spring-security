@@ -1,5 +1,5 @@
 # Simple spring security
-This is simple spring security with default configuration
+This is simple spring security with in-memory users 
 
 Run application
 ---------------
@@ -19,11 +19,21 @@ You should see this:
 
 login
 -----
-To login for the app use below credential:
+To login for the app as a user use below credential:
 
     login: user
     password: password
+the user has access to the user page: http://localhost:8180/user
+
+To login for the app as an admin use below credential:
     
- it will looks like this:
+        login: admin
+        password: admin
+    
+The admin has access to the user pages: http://localhost:8180/user and http://localhost:8180/
+
+The home page looks like this:
  
  ![home page](first-app.png) 
+ 
+ 
